@@ -244,9 +244,6 @@ h1, h2, h3, h4, h5, h6, .font-heading {
 .services i {
   font-size: 40px;
 }
-.services .categories {
-  padding-top: 7.5%;
-}
 
 /* Contact Form */
 .php-email-form .error-message {
@@ -630,4 +627,8 @@ body, html {
 .contact-us-container {
   display: grid;
   grid-template-columns: 15% 85%;
+}
+
+#main {
+  margin-top: 125px;
 }
