@@ -722,3 +722,10 @@ body, html {
   overflow-x: hidden;
   overflow-y: visible;
 }
+
+.flex-wrapper {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: space-between;
+}
