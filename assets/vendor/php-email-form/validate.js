@@ -85,7 +85,8 @@
     body += "Message: " + document.getElementById("message").value + "\n";
   
     let request = {
-      "toEmails": ["bkrentalsde@gmail.com"],
+      "toEmails": ["salesbkrentalsde@gmail.com"],
+      "ccEmails": ["bkrentalsde@gmail.com"],
       "subject": document.getElementById("subject").value,
       "body": body
     }
